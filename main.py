@@ -26,7 +26,7 @@ cost = float(response['ResultsByTime'][0]['Total']['UnblendedCost']['Amount'])
 
 if cost >= 0.90:  # Alert threshold based on $0.9s0 free-tier cap
     sns.publish(
-        TopicArn='arn:aws:sns:us-east-1:137068226726:cost-sns-topic-arn',
+        TopicArn='arn:aws:sns:us-east-1:xxxxxxxxxx:xxxxxxxxxx',
         Subject='AWS Free Tier Alert!',
         Message=f"Your EC2 cost this month is ${cost} — you're nearing the free tier limit!"
     )
