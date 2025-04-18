@@ -41,4 +41,4 @@ Optionally, adjust the cost threshold and the service you want to track (e.g., E
 
 Run the Bot:
 
-To track your AWS usage and receive notifications, simply run the main.py script:
+To track your AWS usage and receive notifications, simply run the main.py script
