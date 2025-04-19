@@ -18,7 +18,7 @@ response = client.get_cost_and_usage(
 import json
 print(json.dumps(response, indent=2))
 
-print("Cost so far:", response['ResultsByTime'][0]['Total']['UnblendedCost']['Amount'])
+print("Cost currently:", response['ResultsByTime'][0]['Total']['UnblendedCost']['Amount'])
 
 sns = boto3.client('sns')
 
