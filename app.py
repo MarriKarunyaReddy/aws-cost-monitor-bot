@@ -36,4 +36,4 @@ def index():
 if __name__ == '__main__':
     app.run(debug=True)
 # app.py
-# This is a simple Flask application that fetches AWS cost data and displays it on a web page.  
+# This is a simple Flask application that fetches AWS cost data and displays it on a web page.  ss
