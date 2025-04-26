@@ -1,11 +1,11 @@
 Service,Cost (USD)
 AWS Amplify,0
-AWS Cost Explorer,0.1
+AWS Cost Explorer,0.13
 AWS Key Management Service,0
 AWS Lambda,0
 Amazon API Gateway,0
 Amazon Cognito,0
-Amazon DynamoDB,0.000001875
+Amazon DynamoDB,0.000004875
 EC2 - Other,0.0000001846
 Amazon Elastic Compute Cloud - Compute,0
 Amazon Inspector,0.43011

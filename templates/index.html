@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AWS Monthly Cost Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }
+    h1 { color: #333; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { padding: 10px; border-bottom: 1px solid #ccc; text-align: left; }
+    th { background-color: #222; color: #fff; }
+    tr:nth-child(even) { background-color: #eee; }
+  </style>
+</head>
+<body>
+  <h1>📊 AWS Monthly Cost Dashboard</h1>
+  <h2>Total Cost So Far: ${{ total }}</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Service</th>
+        <th>Cost (USD)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for service in services %}
+      <tr>
+        <td>{{ service.name }}</td>
+        <td>${{ service.cost }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>
